@@ -1,0 +1,31 @@
+#count{
+    text-align: center;
+    font-size: 60px;
+}
+#div1{
+    text-align: center;
+    
+}
+
+.buttons{
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(109, 109, 247);
+    color: white;
+}
+
+.buttons:hover{
+    background-color: rgb(40, 40, 248); 
+}
+
+.div2{
+    
+    padding: 20px;
+    margin-top: 200px;
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    margin-left: 500px;
+    background-color: rgb(247, 220, 227);
+}
