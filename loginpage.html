@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>JAVASCRIPT MAP FUNCTION</h1>
+   <input type="text" placeholder="email" id="email"> <br>
+   <input type="text" placeholder="password" id="password"> <br>
+   <button onclick="login_user()">LOGIN</button>
+    <script>
+      
+        let user_email=["email1","email2","email3","email4","email5","email6"]
+        let user_pass=["pass1","pass2","pass3","pass4","pass5","pass6"]
+        
+        const login_user=()=>{
+            let user_input_email=document.getElementById('email').value;
+            user_email.map((e)=>{
+                if(e==user_input_email){
+                    alert('value match');
+
+                }
+                else{
+                    alert('value not match')
+                }
+
+            })
+            
+        }
+
+
+    </script>
+</body>
+</html>
