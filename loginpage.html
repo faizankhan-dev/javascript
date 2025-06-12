@@ -18,16 +18,35 @@
         
         const login_user=()=>{
             let user_input_email=document.getElementById('email').value;
-            user_email.map((e)=>{
-                if(e==user_input_email){
-                    alert('value match');
+            let user_input_password=document.getElementById('password').value;
+            let found=false
+            // user_email.map((e)=>{
+            //     if(e==user_input_email){
+            //         alert('value match');
+            //         found=true
 
-                }
-                else{
-                    alert('value not match')
-                }
+            //     }
+            //     if(!found){
+            //         alert('not found')
+            //     }
 
-            })
+            // })
+            // console.log(user_input_email);
+            let ind= user_email.findIndex(e=>e===user_input_email)
+            // console.log(ind);
+            // console.log(user_pass[ind]);
+            if(user_input_email===user_email[ind] && user_input_password===user_pass[ind]){
+                console.log("login");
+                
+            }
+            else{
+                console.log("Invalid password");
+                
+            }
+
+            
+            
+            
             
         }
 
