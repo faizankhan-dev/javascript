@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #inner1{
+            background-color:rgb(216, 157, 167) ;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            left: -100%;
+        }
+    </style>
+    <h1>CRUD OPERATION ON ARRAY</h1>
+
+    <div id="inner1">
+        Enter the element : <input type="text" id="insert_array">
+        <button onclick="handleadd()">Add</button>
+
+    </div>
+    <div id="inner2">
+
+    </div>
+    <div id="inner3">
+        <input type="text" id="findupdate" placeholder="find element">
+        <input type="text" id="updatee" placeholder="updated element">
+        <button onclick="handleupdate()">UPDATE</button>
+
+    </div>
+    <button id="create">CREATE</button>
+    <button id="read">READ</button>
+    <button id="update">UPDATE</button>
+    <button id="delete">DELETE</button>
+
+    <script src="curdarray.js"></script>
+</body>
+</html>

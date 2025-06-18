@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <div id="div">
+
+    </div>
+    <script>
+        
+        // let myobj={
+        //     fname:"faizan",
+        //     lname:"khan",
+        //     email:"1234@gmail.com",
+        //     password:"12345",
+        //     "key":"value"
+        // }
+        // console.log(myobj["fname"]);
+        // console.log(myobj["key"]);
+        // myobj.key2="value2"; //TO add new value
+        // Object.freeze(myobj); NO VALUE WILL BE CHANGE
+        // myobj.fname="FAIZAN KHAN"; //TO override value
+        // console.log(myobj);
+        
+
+        
+        // let myobj1 = new Object();
+        // console.log(myobj);
+        // console.log(myobj1);
+
+
+
+        let obj1={
+        
+        "key1":"value1",
+        "key2":"value2",
+        "key3":"value3",
+         
+        }
+        
+        let obj2={
+        
+        "key4":"value4",
+        "key5":"value5",
+        "key6":"value6",
+         
+        }
+
+        let obj3={...obj1,...obj2} //TO MERGE OBJECT
+        console.log(obj3);
+        let obj4=Object.assign({},obj1,obj2) //TO MERGE OBJECT
+        //empty object to hold value
+        console.log(obj4);
+        
+        
+        
+    </script>
+</body>
+</html>
