@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let x=[12,13,14,15,16]
+    console.log(typeof x);
+    x.map((e)=>{
+        console.log(e);
+        
+    })
+   s=0;
+    function myfunc(...params){
+        params.map((e)=>{
+            s=s+e;
+        })
+        console.log(s);
+        
+        
+    }
+    console.log(myfunc(100,200,300));
+    
+    
+
+    </script>
+</body>
+</html>
