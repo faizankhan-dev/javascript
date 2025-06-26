@@ -21,7 +21,7 @@ let quantity=0;
 let cart=document.getElementById('cart');
 
 window.addproduct=(p)=>{
-   price=price+p;
+//    price=price+p;
 //    if(price>0){
 //     cart.innerHTML=<h1>EMPTY CART</h1>
 //    }
@@ -29,7 +29,7 @@ window.addproduct=(p)=>{
 //     else{
 //         cart.innerHTML=price;
 //     }
-   }
+//    }
   
 
 window.removeproduct=(p)=>{
@@ -41,7 +41,7 @@ window.removeproduct=(p)=>{
 //     else{
 //         cart.innerHTML=price;
 //     }
-}
+// }
 
 // console.log(window);
 
