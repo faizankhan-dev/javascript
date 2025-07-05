@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ludo dices are here</h1>
+    <div id="ludo">
+
+    </div>
+    <button onclick="ludogoti()">roll</button>
+    <script>
+        let ludonumber=["img/activa1.jpeg","img/activa2.jpeg","img/activa3.jpeg","img/activa4.jpeg","img/activa5.jpeg","img/activa6.jpeg",]
+        const ludogoti=()=>{
+            let n=Math.floor(Math.random()*6)
+            document.getElementById("ludo").innerHTML=`
+            <img src="${ludonumber[n]}" alt="${ludonumber[n]}">
+            <h1>${n}</h1>
+            `
+        }
+    </script>
+</body>
+</html>
