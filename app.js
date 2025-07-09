@@ -57,3 +57,23 @@ const updatedata=async()=>{
     }
 }
 
+const deletedata=async(e)=>{
+    // e.preventDefault();
+    let  id=document.getElementById('did').value
+
+try {
+    await fetch(`${baseulr}/${id}`,{
+
+          method:"DELETE",
+           
+ } )
+ alert("DELETE")
+ getallproduct()
+
+} 
+catch (error) {
+    console.log(error)
+}
+
+
+}
